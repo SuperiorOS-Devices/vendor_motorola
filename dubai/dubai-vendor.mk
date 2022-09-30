@@ -1579,7 +1579,6 @@ PRODUCT_COPY_FILES += \
     IWlanService \
     TimeService \
     MotCamera3AI \
-    com.qualcomm.qti.gpudrivers.lahaina.api30 \
     uimgbaservice \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
