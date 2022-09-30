@@ -71,11 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/motorola/dubai/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/motorola/dubai/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
-    vendor/motorola/dubai/proprietary/system_ext/bin/qccsyshal@1.1-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qccsyshal@1.1-service \
     vendor/motorola/dubai/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/motorola/dubai/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/motorola/dubai/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
-    vendor/motorola/dubai/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.1-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.1-service.rc \
     vendor/motorola/dubai/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/motorola/dubai/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/dubai/proprietary/system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
@@ -92,8 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/motorola/dubai/proprietary/system_ext/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/hw/vendor.qti.hardware.qccsyshal@1.1-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/hw/vendor.qti.hardware.qccsyshal@1.1-impl.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -110,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpdecoder.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsd_sdk_display.qti.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdm-disp-apis.qti.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
@@ -128,18 +123,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrcinterface.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrc.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.1-halimpl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.1.so \
     vendor/motorola/dubai/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/hw/vendor.qti.hardware.qccsyshal@1.1-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/hw/vendor.qti.hardware.qccsyshal@1.1-impl.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc_file_agent_sys.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsd_sdk_display.qti.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsdm-disp-apis.qti.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdavenhancements.so \
@@ -158,10 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system_ext/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsink.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrcinterface.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrc.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.1-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.1-halimpl.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.1.so \
     vendor/motorola/dubai/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/motorola/dubai/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/dubai/proprietary/system/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
