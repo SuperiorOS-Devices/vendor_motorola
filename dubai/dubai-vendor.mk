@@ -1566,6 +1566,6 @@ PRODUCT_COPY_FILES += \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcsuce-V1.0-java \
     android.hardware.neuralnetworks@1.3-service-qti \
-    c2_manifest_vendor \
+    vendor.dolby.media.c2@1.0-service \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
