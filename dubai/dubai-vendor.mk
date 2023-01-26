@@ -1604,6 +1604,7 @@ PRODUCT_COPY_FILES += \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimgbaservice \
+    uimservicelibrary.jar \
     vendor.dolby.media.c2@1.0-service \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.alarm-V1.0-java \
